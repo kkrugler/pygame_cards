@@ -5,7 +5,7 @@ try:
 
     from pygame_cards import game_object, card, card_sprite
 except ImportError as err:
-    print "Fail loading a module in file:", __file__, "\n", err
+    print("Fail loading a module in file:", __file__, "\n", err)
     sys.exit(2)
 
 

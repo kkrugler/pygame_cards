@@ -3,7 +3,7 @@ try:
     import sys
     #from enum import IntEnum
 except ImportError as err:
-    print "Fail loading a module in file:", __file__, "\n", err
+    print("Fail loading a module in file:", __file__, "\n", err)
     sys.exit(2)
 
 

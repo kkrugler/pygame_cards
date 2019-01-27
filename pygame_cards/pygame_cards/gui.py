@@ -5,7 +5,7 @@ try:
     import pygame
     from threading import Timer
 except ImportError as err:
-    print "Fail loading a module in file:", __file__, "\n", err
+    print("Fail loading a module in file:", __file__, "\n", err)
     sys.exit(2)
 
 
